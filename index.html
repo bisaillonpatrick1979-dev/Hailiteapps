@@ -3,114 +3,107 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="HailiteApps crée des applications intelligentes, simples et puissantes pour les professionnels et les passionnés." />
+  <meta name="description" content="HailiteApps conçoit des applications intelligentes, mobiles et simples pour les entreprises et les travailleurs." />
   <meta name="theme-color" content="#030713" />
+  <meta property="og:title" content="HailiteApps — Des applications intelligentes" />
+  <meta property="og:description" content="Des solutions numériques pratiques, bilingues et adaptées au travail réel." />
+  <meta property="og:type" content="website" />
   <title>HailiteApps — Des applications intelligentes</title>
   <link rel="icon" href="/assets/logo-ha.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
   <header class="site-header">
-    <a class="brand" href="#accueil" aria-label="HailiteApps">
+    <a class="brand" href="#accueil" aria-label="HailiteApps — Accueil">
       <img src="/assets/logo-ha.svg" alt="" />
       <span>Hailite<span>Apps</span></span>
     </a>
-    <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
-    <nav class="nav-links">
-      <a href="#accueil">Accueil</a>
-      <a href="#applications">Applications</a>
-      <a href="#avantages">Avantages</a>
-      <a href="#apropos">À propos</a>
-      <a href="#contact">Contact</a>
-      <button id="langBtn" class="lang-btn">EN</button>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="#accueil" data-fr="Accueil" data-en="Home">Accueil</a>
+      <a href="#applications" data-fr="Applications" data-en="Applications">Applications</a>
+      <a href="#services" data-fr="Services" data-en="Services">Services</a>
+      <a href="#processus" data-fr="Processus" data-en="Process">Processus</a>
+      <a href="#apropos" data-fr="À propos" data-en="About">À propos</a>
+      <a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
+      <button id="langBtn" class="lang-btn" type="button" aria-label="Switch to English">EN</button>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section id="accueil" class="hero">
       <div class="hero-glow"></div>
       <div class="hero-copy">
-        <p class="eyebrow">INNOVATION · PERFORMANCE · FIABILITÉ</p>
-        <h1>Des applications intelligentes conçues pour <span>vos défis</span></h1>
-        <p class="hero-text">HailiteApps transforme des idées concrètes en outils numériques puissants, simples à utiliser et adaptés au travail réel.</p>
+        <p class="eyebrow" data-fr="INNOVATION · PERFORMANCE · FIABILITÉ" data-en="INNOVATION · PERFORMANCE · RELIABILITY">INNOVATION · PERFORMANCE · FIABILITÉ</p>
+        <h1 data-fr="Des applications intelligentes conçues pour vos défis" data-en="Smart applications built for your real-world challenges">Des applications intelligentes conçues pour <span>vos défis</span></h1>
+        <p class="hero-text" data-fr="HailiteApps transforme des idées concrètes en outils numériques puissants, simples à utiliser et adaptés au travail réel." data-en="HailiteApps turns practical ideas into powerful digital tools that are easy to use and built for real work.">HailiteApps transforme des idées concrètes en outils numériques puissants, simples à utiliser et adaptés au travail réel.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="#applications">Découvrir nos applications</a>
-          <a class="btn secondary" href="#apropos">En savoir plus</a>
+          <a class="btn primary" href="#applications" data-fr="Découvrir nos applications" data-en="Explore our applications">Découvrir nos applications</a>
+          <a class="btn secondary" href="#contact" data-fr="Parler de votre projet" data-en="Discuss your project">Parler de votre projet</a>
+        </div>
+        <div class="hero-proof" aria-label="Points forts">
+          <span data-fr="Bilingue FR/EN" data-en="Bilingual FR/EN">Bilingue FR/EN</span>
+          <span data-fr="Mobile et tablette" data-en="Mobile and tablet">Mobile et tablette</span>
+          <span data-fr="Conçu au Canada" data-en="Built in Canada">Conçu au Canada</span>
         </div>
       </div>
-      <div class="hero-mark" aria-hidden="true">
-        <img src="/assets/logo-ha.svg" alt="" />
-      </div>
+      <div class="hero-mark" aria-hidden="true"><img src="/assets/logo-ha.svg" alt="" /></div>
     </section>
 
-    <section class="trust-strip" id="avantages">
-      <article><strong>Technologie avancée</strong><span>Des outils modernes et performants</span></article>
-      <article><strong>Sécurité sérieuse</strong><span>Vos données restent protégées</span></article>
-      <article><strong>Multi-plateforme</strong><span>Web, mobile et tablette</span></article>
-      <article><strong>Évolution continue</strong><span>Des améliorations régulières</span></article>
+    <section class="trust-strip" aria-label="Avantages">
+      <article><strong data-fr="Technologie moderne" data-en="Modern technology">Technologie moderne</strong><span data-fr="Des outils rapides et évolutifs" data-en="Fast, scalable tools">Des outils rapides et évolutifs</span></article>
+      <article><strong data-fr="Sécurité sérieuse" data-en="Security first">Sécurité sérieuse</strong><span data-fr="Des accès et données mieux protégés" data-en="Better protected access and data">Des accès et données mieux protégés</span></article>
+      <article><strong data-fr="Multi-plateforme" data-en="Cross-platform">Multi-plateforme</strong><span data-fr="Web, mobile et tablette" data-en="Web, mobile and tablet">Web, mobile et tablette</span></article>
+      <article><strong data-fr="Évolution continue" data-en="Continuous improvement">Évolution continue</strong><span data-fr="Des produits qui grandissent avec vous" data-en="Products that grow with you">Des produits qui grandissent avec vous</span></article>
     </section>
 
     <section id="applications" class="section">
       <div class="section-heading">
-        <p class="eyebrow">NOTRE ÉCOSYSTÈME</p>
-        <h2>Des solutions pour chaque projet</h2>
-        <p>Une seule marque, plusieurs applications spécialisées.</p>
+        <p class="eyebrow" data-fr="NOTRE ÉCOSYSTÈME" data-en="OUR ECOSYSTEM">NOTRE ÉCOSYSTÈME</p>
+        <h2 data-fr="Des solutions pour chaque projet" data-en="Solutions for every project">Des solutions pour chaque projet</h2>
+        <p data-fr="Une seule marque, plusieurs applications spécialisées." data-en="One brand, multiple specialized applications.">Une seule marque, plusieurs applications spécialisées.</p>
       </div>
       <div class="app-grid">
-        <article class="app-card featured">
-          <div class="app-icon">🏗️</div>
-          <span class="tag">Professionnel</span>
-          <h3>Hailite Gestion</h3>
-          <p>Gestion de chantier, temps, clients, devis, factures et suivi d’équipes.</p>
-          <a href="#contact">Bientôt disponible →</a>
-        </article>
-        <article class="app-card">
-          <div class="app-icon">📈</div>
-          <span class="tag">Finance</span>
-          <h3>Hailite Trading</h3>
-          <p>Analyse de marché, simulation et outils intelligents pour le trading.</p>
-          <a href="#contact">En développement →</a>
-        </article>
-        <article class="app-card">
-          <div class="app-icon">🎲</div>
-          <span class="tag">Loisirs</span>
-          <h3>Hailite Games</h3>
-          <p>Jeux de société, cartes, dés et assistants de partie alimentés par l’IA.</p>
-          <a href="#contact">Concept en préparation →</a>
-        </article>
-        <article class="app-card">
-          <div class="app-icon">🌱</div>
-          <span class="tag">Jardinage</span>
-          <h3>Hailite Garden</h3>
-          <p>Planification, suivi et outils intelligents pour les projets de jardinage.</p>
-          <a href="#contact">À venir →</a>
-        </article>
+        <article class="app-card featured"><div class="app-icon">🏗️</div><span class="tag" data-fr="Professionnel" data-en="Business">Professionnel</span><h3>Hailite Gestion</h3><p data-fr="Gestion de chantier, temps, clients, devis, factures et suivi d’équipes." data-en="Jobsite management, time tracking, clients, estimates, invoices and teams.">Gestion de chantier, temps, clients, devis, factures et suivi d’équipes.</p><a href="#contact" data-fr="Demander une démonstration →" data-en="Request a demo →">Demander une démonstration →</a></article>
+        <article class="app-card"><div class="app-icon">📈</div><span class="tag" data-fr="Finance" data-en="Finance">Finance</span><h3>Hailite Trading</h3><p data-fr="Analyse de marché, simulation et outils intelligents pour la recherche financière." data-en="Market analysis, simulation and intelligent financial research tools.">Analyse de marché, simulation et outils intelligents pour la recherche financière.</p><a href="#contact" data-fr="En développement →" data-en="In development →">En développement →</a></article>
+        <article class="app-card"><div class="app-icon">🎲</div><span class="tag" data-fr="Loisirs" data-en="Entertainment">Loisirs</span><h3>Hailite Games</h3><p data-fr="Jeux de société, cartes, dés et assistants de partie alimentés par l’IA." data-en="Board games, cards, dice and AI-powered game assistants.">Jeux de société, cartes, dés et assistants de partie alimentés par l’IA.</p><a href="#contact" data-fr="Concept en préparation →" data-en="Concept in progress →">Concept en préparation →</a></article>
+        <article class="app-card"><div class="app-icon">🌱</div><span class="tag" data-fr="Jardinage" data-en="Gardening">Jardinage</span><h3>Hailite Garden</h3><p data-fr="Planification, suivi et outils intelligents pour les projets de jardinage." data-en="Planning, tracking and smart tools for gardening projects.">Planification, suivi et outils intelligents pour les projets de jardinage.</p><a href="#contact" data-fr="À venir →" data-en="Coming soon →">À venir →</a></article>
       </div>
+    </section>
+
+    <section id="services" class="section alt-section">
+      <div class="section-heading"><p class="eyebrow" data-fr="CE QUE NOUS CRÉONS" data-en="WHAT WE BUILD">CE QUE NOUS CRÉONS</p><h2 data-fr="De l’idée au produit fonctionnel" data-en="From idea to working product">De l’idée au produit fonctionnel</h2></div>
+      <div class="service-grid">
+        <article><span>01</span><h3 data-fr="Conception de produit" data-en="Product design">Conception de produit</h3><p data-fr="Analyse des besoins, parcours utilisateur, fonctions prioritaires et plan de développement." data-en="Needs analysis, user journeys, priority features and development roadmap.">Analyse des besoins, parcours utilisateur, fonctions prioritaires et plan de développement.</p></article>
+        <article><span>02</span><h3 data-fr="Applications web et mobiles" data-en="Web and mobile apps">Applications web et mobiles</h3><p data-fr="Interfaces rapides, accessibles et adaptées aux téléphones, tablettes et ordinateurs." data-en="Fast, accessible interfaces for phones, tablets and computers.">Interfaces rapides, accessibles et adaptées aux téléphones, tablettes et ordinateurs.</p></article>
+        <article><span>03</span><h3 data-fr="Intelligence artificielle" data-en="Artificial intelligence">Intelligence artificielle</h3><p data-fr="Assistants, automatisations, recherche documentaire et fonctions IA encadrées." data-en="Assistants, automation, document search and governed AI features.">Assistants, automatisations, recherche documentaire et fonctions IA encadrées.</p></article>
+        <article><span>04</span><h3 data-fr="Déploiement et évolution" data-en="Deployment and growth">Déploiement et évolution</h3><p data-fr="Mise en ligne, surveillance, amélioration continue et connexion aux services externes." data-en="Launch, monitoring, continuous improvement and external integrations.">Mise en ligne, surveillance, amélioration continue et connexion aux services externes.</p></article>
+      </div>
+    </section>
+
+    <section id="processus" class="section">
+      <div class="section-heading"><p class="eyebrow" data-fr="MÉTHODE" data-en="PROCESS">MÉTHODE</p><h2 data-fr="Une démarche claire en quatre étapes" data-en="A clear four-step process">Une démarche claire en quatre étapes</h2></div>
+      <ol class="process-grid">
+        <li><b>1</b><div><h3 data-fr="Comprendre" data-en="Understand">Comprendre</h3><p data-fr="Définir le problème, les utilisateurs et le résultat attendu." data-en="Define the problem, users and expected outcome.">Définir le problème, les utilisateurs et le résultat attendu.</p></div></li>
+        <li><b>2</b><div><h3 data-fr="Concevoir" data-en="Design">Concevoir</h3><p data-fr="Créer l’architecture, l’expérience et les priorités du produit." data-en="Create the architecture, experience and product priorities.">Créer l’architecture, l’expérience et les priorités du produit.</p></div></li>
+        <li><b>3</b><div><h3 data-fr="Développer" data-en="Build">Développer</h3><p data-fr="Construire, intégrer et tester chaque fonction importante." data-en="Build, integrate and test every important feature.">Construire, intégrer et tester chaque fonction importante.</p></div></li>
+        <li><b>4</b><div><h3 data-fr="Déployer" data-en="Launch">Déployer</h3><p data-fr="Mettre en ligne, mesurer et améliorer avec les utilisateurs." data-en="Launch, measure and improve with users.">Mettre en ligne, mesurer et améliorer avec les utilisateurs.</p></div></li>
+      </ol>
     </section>
 
     <section id="apropos" class="section about">
-      <div>
-        <p class="eyebrow">À PROPOS</p>
-        <h2>Des applications pensées pour le vrai monde</h2>
-      </div>
-      <p>HailiteApps développe des solutions numériques accessibles, professionnelles et pratiques. Notre objectif est de simplifier les tâches complexes sans compliquer l’expérience de l’utilisateur.</p>
+      <div><p class="eyebrow" data-fr="À PROPOS" data-en="ABOUT">À PROPOS</p><h2 data-fr="Des applications pensées pour le vrai monde" data-en="Applications designed for the real world">Des applications pensées pour le vrai monde</h2></div>
+      <div><p data-fr="HailiteApps développe des solutions numériques accessibles, professionnelles et pratiques. Notre objectif est de simplifier les tâches complexes sans compliquer l’expérience de l’utilisateur." data-en="HailiteApps develops accessible, professional and practical digital solutions. Our goal is to simplify complex work without making the user experience complicated.">HailiteApps développe des solutions numériques accessibles, professionnelles et pratiques. Notre objectif est de simplifier les tâches complexes sans compliquer l’expérience de l’utilisateur.</p><p data-fr="Nous privilégions les interfaces lisibles, les gros boutons, le bilinguisme et les outils qui fonctionnent réellement sur le terrain." data-en="We prioritize readable interfaces, large controls, bilingual support and tools that work in the field.">Nous privilégions les interfaces lisibles, les gros boutons, le bilinguisme et les outils qui fonctionnent réellement sur le terrain.</p></div>
     </section>
 
     <section id="contact" class="section cta">
-      <div>
-        <p class="eyebrow">TRAVAILLONS ENSEMBLE</p>
-        <h2>Une idée d’application?</h2>
-        <p>Présentez-nous votre besoin et découvrez comment HailiteApps peut le transformer en solution.</p>
-      </div>
-      <a class="btn primary" href="mailto:contact@hailiteapps.com">Nous contacter</a>
+      <div><p class="eyebrow" data-fr="TRAVAILLONS ENSEMBLE" data-en="LET'S WORK TOGETHER">TRAVAILLONS ENSEMBLE</p><h2 data-fr="Une idée d’application?" data-en="Have an application idea?">Une idée d’application?</h2><p data-fr="Présentez-nous votre besoin et découvrez comment HailiteApps peut le transformer en solution." data-en="Tell us what you need and discover how HailiteApps can turn it into a solution.">Présentez-nous votre besoin et découvrez comment HailiteApps peut le transformer en solution.</p></div>
+      <div class="contact-actions"><a class="btn primary" href="mailto:contact@hailiteapps.com?subject=Projet%20HailiteApps" data-fr="Écrire à HailiteApps" data-en="Email HailiteApps">Écrire à HailiteApps</a><a class="contact-email" href="mailto:contact@hailiteapps.com">contact@hailiteapps.com</a></div>
     </section>
   </main>
 
-  <footer>
-    <a class="brand" href="#accueil"><img src="/assets/logo-ha.svg" alt="" /><span>Hailite<span>Apps</span></span></a>
-    <p>© 2026 HailiteApps. Tous droits réservés.</p>
-  </footer>
-
+  <footer><a class="brand" href="#accueil"><img src="/assets/logo-ha.svg" alt="" /><span>Hailite<span>Apps</span></span></a><p>© <span id="year">2026</span> HailiteApps. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p></footer>
   <script src="/script.js"></script>
 </body>
 </html>
